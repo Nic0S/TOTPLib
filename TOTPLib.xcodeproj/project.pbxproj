@@ -118,7 +118,21 @@
 		225035D01B7EA6C100EDC45B /* GTMTypeCasting.h in Headers */ = {isa = PBXBuildFile; fileRef = 225035CF1B7EA6C100EDC45B /* GTMTypeCasting.h */; };
 		225035D31B7EA6E900EDC45B /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 225035D11B7EA6E900EDC45B /* GTMDebugThreadValidation.h */; };
 		225035D41B7EA6E900EDC45B /* GTMDebugThreadValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 225035D21B7EA6E900EDC45B /* GTMDebugThreadValidation.m */; };
+		225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035211B7EA65D00EDC45B /* HOTPGenerator.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		225035E31B7EAECF00EDC45B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		225034A41B7EA5C900EDC45B /* libTOTPLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTOTPLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -474,6 +488,7 @@
 				225034A01B7EA5C900EDC45B /* Sources */,
 				225034A11B7EA5C900EDC45B /* Frameworks */,
 				225034A21B7EA5C900EDC45B /* Headers */,
+				225035E31B7EAECF00EDC45B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -693,6 +708,7 @@
 				225034BA1B7EA5C900EDC45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
