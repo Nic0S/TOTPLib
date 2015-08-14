@@ -119,6 +119,7 @@
 		225035D31B7EA6E900EDC45B /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 225035D11B7EA6E900EDC45B /* GTMDebugThreadValidation.h */; };
 		225035D41B7EA6E900EDC45B /* GTMDebugThreadValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 225035D21B7EA6E900EDC45B /* GTMDebugThreadValidation.m */; };
 		225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035211B7EA65D00EDC45B /* HOTPGenerator.h */; };
+		225035EC1B7EB0F000EDC45B /* OTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035251B7EA65D00EDC45B /* OTPGenerator.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +129,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				225035EC1B7EB0F000EDC45B /* OTPGenerator.h in CopyFiles */,
 				225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +249,7 @@
 		225035CF1B7EA6C100EDC45B /* GTMTypeCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTypeCasting.h; sourceTree = "<group>"; };
 		225035D11B7EA6E900EDC45B /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDebugThreadValidation.h; sourceTree = "<group>"; };
 		225035D21B7EA6E900EDC45B /* GTMDebugThreadValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMDebugThreadValidation.m; sourceTree = "<group>"; };
+		225035ED1B7EB1BA00EDC45B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +266,7 @@
 		2250349B1B7EA5C900EDC45B = {
 			isa = PBXGroup;
 			children = (
+				225035ED1B7EB1BA00EDC45B /* libz.dylib */,
 				225034A61B7EA5C900EDC45B /* TOTPLib */,
 				225034A51B7EA5C900EDC45B /* Products */,
 				225034BE1B7EA65D00EDC45B /* Foundation */,
