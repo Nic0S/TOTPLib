@@ -249,7 +249,8 @@
 		225035CF1B7EA6C100EDC45B /* GTMTypeCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTypeCasting.h; sourceTree = "<group>"; };
 		225035D11B7EA6E900EDC45B /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDebugThreadValidation.h; sourceTree = "<group>"; };
 		225035D21B7EA6E900EDC45B /* GTMDebugThreadValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMDebugThreadValidation.m; sourceTree = "<group>"; };
-		225035ED1B7EB1BA00EDC45B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		225035F31B7EB2C300EDC45B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		225035F51B7EB2CC00EDC45B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,7 +267,8 @@
 		2250349B1B7EA5C900EDC45B = {
 			isa = PBXGroup;
 			children = (
-				225035ED1B7EB1BA00EDC45B /* libz.dylib */,
+				225035F51B7EB2CC00EDC45B /* libsqlite3.dylib */,
+				225035F31B7EB2C300EDC45B /* libz.dylib */,
 				225034A61B7EA5C900EDC45B /* TOTPLib */,
 				225034A51B7EA5C900EDC45B /* Products */,
 				225034BE1B7EA65D00EDC45B /* Foundation */,
@@ -489,8 +491,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 225034B81B7EA5C900EDC45B /* Build configuration list for PBXNativeTarget "TOTPLib" */;
 			buildPhases = (
-				225034A01B7EA5C900EDC45B /* Sources */,
 				225034A11B7EA5C900EDC45B /* Frameworks */,
+				225034A01B7EA5C900EDC45B /* Sources */,
 				225034A21B7EA5C900EDC45B /* Headers */,
 				225035E31B7EAECF00EDC45B /* CopyFiles */,
 			);
