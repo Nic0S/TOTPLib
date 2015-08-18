@@ -120,6 +120,8 @@
 		225035D41B7EA6E900EDC45B /* GTMDebugThreadValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 225035D21B7EA6E900EDC45B /* GTMDebugThreadValidation.m */; };
 		225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035211B7EA65D00EDC45B /* HOTPGenerator.h */; };
 		225035EC1B7EB0F000EDC45B /* OTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035251B7EA65D00EDC45B /* OTPGenerator.h */; };
+		22678B411B82B55E007439E7 /* OTPAuthURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035231B7EA65D00EDC45B /* OTPAuthURL.h */; };
+		22AC10DB1B7EED2E0025471F /* TOTPGenerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225035271B7EA65D00EDC45B /* TOTPGenerator.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +131,8 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				22678B411B82B55E007439E7 /* OTPAuthURL.h in CopyFiles */,
+				22AC10DB1B7EED2E0025471F /* TOTPGenerator.h in CopyFiles */,
 				225035EC1B7EB0F000EDC45B /* OTPGenerator.h in CopyFiles */,
 				225035E41B7EAF5F00EDC45B /* HOTPGenerator.h in CopyFiles */,
 			);
